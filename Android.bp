@@ -9,3 +9,13 @@ android_app_import {
     system_ext_specific: true,
     overrides: ["Home", "Launcher2", "Launcher3", "Launcher3QuickStep", "ParanoidQuickStep", "PixelLauncher", "TrebuchetQuickStep"],
 }
+
+android_app_import {
+    name: "Lawnicons",
+    apk: "app/Lawnicons/Lawnicons.apk",
+    presigned: true,
+    dex_preopt: {
+	enabled: false,
+    },
+    system_ext_specific: true,
+}
